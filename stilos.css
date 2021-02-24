@@ -1,0 +1,17 @@
+ 
+ .flotante{
+     float: left;
+     
+     margin-left: 165px;
+     line-height-step: 23;
+    
+ }
+
+ .boton{
+     box-shadow: -3px 3px greenyellow;
+     border-radius: 20px;
+ }
+
+ .flotante2{
+     float: left;
+ }

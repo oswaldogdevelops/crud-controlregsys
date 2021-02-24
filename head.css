@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    overflow: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-bottom: 100px;
+}
+
+header .logo .title{
+    height: 60px;
+    width: 300px;
+    margin-left: 30px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 55px;
+}
+
+header nav a{
+   display: inline-block;
+   padding: 10px 15px;
+   line-height: normal;
+   font-size: 13px;
+   color: beige;
+
+}
+
+header nav a:hover{
+    background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 20px;
+    color: beige;
+}
+
+.header2 {
+ position:fixed ;
+ height: 60px;
+}
+
+.header2 .logo{
+   line-height: 100px;
+   font-size: 30px;
+}
